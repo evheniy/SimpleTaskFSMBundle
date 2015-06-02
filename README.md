@@ -46,7 +46,11 @@ For example AppBundle/FSM/StateInit:
         }
     }
     
-Then create FSM manager with this state classes:
+Then create FSM manager with this state classes (for example in Command):
+
+    use Evheniy\SimpleTaskFSMBundle\FSM;
+
+And
 
     $fsm = new FSM(array(new StateInit()));
     foreach($fsm as $state) {
@@ -77,6 +81,9 @@ If you have exception (You can use Evheniy\SimpleTaskFSMBundle\Exception\StateEx
     }
 
 You can use a lot of states and they will run one by one.
+
+    $fsm = new FSM(array(new StateInit(), new StateMainTask(), new StateFinish()));
+
 
 License
 -------

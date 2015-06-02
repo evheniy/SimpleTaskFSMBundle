@@ -9,6 +9,11 @@ use Evheniy\SimpleTaskFSMBundle\Test\Fixtures\StateFinish;
 use Evheniy\SimpleTaskFSMBundle\Test\Fixtures\StateWithError;
 use Evheniy\SimpleTaskFSMBundle\Exception\StateException;
 
+/**
+ * Class FSMTest
+ *
+ * @package Evheniy\SimpleTaskFSMBundle\Test
+ */
 class FSMTest extends \PHPUnit_Framework_TestCase
 {
     /**
@@ -47,12 +52,12 @@ class FSMTest extends \PHPUnit_Framework_TestCase
     public function testFSMNormalProcess()
     {
         $fsm = new FSM(array(new StateInit()));
-        foreach($fsm as $state) {
+        foreach ($fsm as $state) {
             $this->assertInstanceOf('\Evheniy\SimpleTaskFSMBundle\StateAbstract', $state);
         }
 
         $fsm->rewind();
-        while($fsm->valid()) {
+        while ($fsm->valid()) {
             $this->assertInstanceOf('\Evheniy\SimpleTaskFSMBundle\StateAbstract', $fsm->current());
             $fsm->next();
         }
@@ -69,7 +74,7 @@ class FSMTest extends \PHPUnit_Framework_TestCase
         StateWithError::$counter = 0;
 
         $fsm->rewind();
-        while($fsm->valid()) {
+        while ($fsm->valid()) {
             $countIteration ++;
             try {
                 StateWithError::$counter ++;

@@ -33,6 +33,6 @@ class FSM extends \SplObjectStorage
             throw new WrongClassException('Wrong class. Only StateAbstract children!');
         }
 
-        parent::attach($object);
+        parent::attach($object, $data);
     }
 }

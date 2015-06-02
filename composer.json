@@ -1,0 +1,23 @@
+{
+    "name": "evheniy/simple-task-fsm-bundle",
+    "description": "The SimpleTaskFSMBundle adds the ability to use FSM tasks runner in your application.",
+    "keywords": ["Simple", "FSM", "Tasks", "Finite-state machine", "Symfony", "latest"],
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name":     "evheniy",
+            "homepage": "https://github.com/evheniy"
+        }
+    ],
+    "require": {
+        "php":             ">=5.3.0",
+        "symfony/symfony": ">=2.3"
+    },
+    "autoload": {
+        "psr-0": {
+            "Evheniy\\SimpleTaskFSMBundle": ""
+        }
+    },
+    "target-dir" : "Evheniy/SimpleTaskFSMBundle"
+}

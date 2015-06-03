@@ -4,7 +4,7 @@ This bundle provides the ability to use FSM tasks runner in your application.
 
 [![knpbundles.com](http://knpbundles.com/evheniy/SimpleTaskFSMBundle/badge)](http://knpbundles.com/evheniy/SimpleTaskFSMBundle)
 
-
+[![Latest Stable Version](https://poser.pugx.org/evheniy/simple-task-fsm-bundle/v/stable)](https://packagist.org/packages/evheniy/simple-task-fsm-bundle) [![Total Downloads](https://poser.pugx.org/evheniy/simple-task-fsm-bundle/downloads)](https://packagist.org/packages/evheniy/simple-task-fsm-bundle) [![Latest Unstable Version](https://poser.pugx.org/evheniy/simple-task-fsm-bundle/v/unstable)](https://packagist.org/packages/evheniy/simple-task-fsm-bundle) [![License](https://poser.pugx.org/evheniy/simple-task-fsm-bundle/license)](https://packagist.org/packages/evheniy/simple-task-fsm-bundle)
 
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/evheniy/SimpleTaskFSMBundle/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/evheniy/SimpleTaskFSMBundle/?branch=master) [![Build Status](https://scrutinizer-ci.com/g/evheniy/SimpleTaskFSMBundle/badges/build.png?b=master)](https://scrutinizer-ci.com/g/evheniy/SimpleTaskFSMBundle/build-status/master)
 

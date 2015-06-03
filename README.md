@@ -2,6 +2,14 @@ SimpleTaskFSMBundle
 ===================
 This bundle provides the ability to use FSM tasks runner in your application.
 
+[![knpbundles.com](http://knpbundles.com/evheniy/SimpleTaskFSMBundle/badge)](http://knpbundles.com/evheniy/SimpleTaskFSMBundle)
+
+
+
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/evheniy/SimpleTaskFSMBundle/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/evheniy/SimpleTaskFSMBundle/?branch=master) [![Build Status](https://scrutinizer-ci.com/g/evheniy/SimpleTaskFSMBundle/badges/build.png?b=master)](https://scrutinizer-ci.com/g/evheniy/SimpleTaskFSMBundle/build-status/master)
+
+[![Build Status](https://travis-ci.org/evheniy/SimpleTaskFSMBundle.svg?branch=master)](https://travis-ci.org/evheniy/SimpleTaskFSMBundle)
+
 Installation
 ------------
 
@@ -89,6 +97,8 @@ License
 -------
 
 This bundle is under the [MIT][2] license.
+
+[Документация на русском языке][1]
 
 [1]:  http://makedev.org/articles/symfony/bundles/simple_task_fsm_bundle.html
 [2]:  https://github.com/evheniy/SimpleTaskFSMBundle/blob/master/Resources/meta/LICENSE

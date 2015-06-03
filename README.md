@@ -22,12 +22,12 @@ Or add to composer.json
 AppKernel:
 
     public function registerBundles()
-        {
-            $bundles = array(
-                ...
-                new Evheniy\SimpleTaskFSMBundle\SimpleTaskFSMBundle(),
-            );
+    {
+        $bundles = array(
             ...
+            new Evheniy\SimpleTaskFSMBundle\SimpleTaskFSMBundle(),
+        );
+        ...
 
 Documentation
 -------------
